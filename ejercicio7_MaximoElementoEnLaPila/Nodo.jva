@@ -1,0 +1,11 @@
+class Nodo {
+    int dato;
+    int maximo;
+    Nodo sig;
+
+    Nodo(int dato) {
+        this.dato = dato;
+        this.maximo = dato;
+        this.sig = null;
+    }
+}
