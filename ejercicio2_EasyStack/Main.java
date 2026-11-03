@@ -1,3 +1,8 @@
+//Maria Valeria Molina Rosas
+//02 de noviembre, 2026
+//ejercicio EasyStack
+
+
 // lee la entrada rapido con buffer
 import java.io.*;
 import java.util.*;
