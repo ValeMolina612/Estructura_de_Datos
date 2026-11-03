@@ -22,3 +22,14 @@ class Pila {
         nuevo.sig = tope;
         tope = nuevo;
     }
+
+    // borra el elemento de arriba
+    void pop() {
+        if (tope != null) tope = tope.sig;
+    }
+
+    // regresa el valor de arriba
+    int top() {
+        return tope.dato;
+    }
+}
