@@ -1,8 +1,16 @@
+//Molina Rosas Maria Valeria
+//02 de noviembre, 2026.
+// ejercicio maximo elemento
+
 class Nodo {
+    // guarda el numero
     int dato;
+    // guarda el maximo hasta este punto
     int maximo;
+    // apunta al siguiente nodo
     Nodo sig;
 
+    // crea el nodo con su valor y su maximo
     Nodo(int dato) {
         this.dato = dato;
         this.maximo = dato;
