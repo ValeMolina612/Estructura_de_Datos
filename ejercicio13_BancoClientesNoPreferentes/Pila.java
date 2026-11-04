@@ -3,21 +3,25 @@
 // Banco y Clientes
 
 class Pila {
+    
+    // referencia al elemento superior
     private Nodo tope;
 
+    // constructor inicia la pila vacia
     Pila() {
         tope = null;
     }
 
-    void agrega(int n) {
-        Nodo nuevo = new Nodo(n);
+    // agrega un texto arriba de la pila
+    void push(String dato) {
+        Nodo nuevo = new Nodo(dato);
         nuevo.sig = tope;
         tope = nuevo;
     }
 
-    int saca() {
-        if (tope == null) return -1;
-        int dato = tope.dato;
+    // saca y regresa el elemento superior
+    String pop() {
+        String dato = tope.dato;
         tope = tope.sig;
         return dato;
     }
