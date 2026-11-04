@@ -27,7 +27,7 @@ Ejercicio 13: Simula la atención en un banco combinando dos tipos de estructura
 
 ## Compilacion y Ejecucion
 
-Para compilar todos los archivos juntos en la terminal, utiliza el siguiente comando:
+Para compilar todos los archivos juntos en la terminal utilize
 
-```bash
+
 javac Main.java Pila.java Nodo.java Cola.java Nodo.java
