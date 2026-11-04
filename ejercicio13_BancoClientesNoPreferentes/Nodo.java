@@ -3,11 +3,18 @@
 // Banco y Clientes
 
 class Nodo {
+    
+    // guarda un numero entero
     int dato;
+    
+    // apunta al siguiente nodo
     Nodo sig;
 
+    // el constructor guarda el dato
     Nodo(int dato) {
         this.dato = dato;
+        
+        // el enlace comienza vacio
         this.sig = null;
     }
 }
