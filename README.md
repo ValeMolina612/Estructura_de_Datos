@@ -36,4 +36,7 @@ Proceso Burbuja
     FinPara
 	
 FinProceso
+
+<img width="533" height="350" alt="image" src="https://github.com/user-attachments/assets/bd514162-f958-4051-a01f-19564f746309" />
+
    
